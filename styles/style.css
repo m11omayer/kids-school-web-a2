@@ -13,6 +13,8 @@
     height: 50px;
     border: none;
     border-radius: 12px;
+    background-color: rgb(17, 17, 17);
+    color: white;
 }
 
 
@@ -62,13 +64,85 @@
 .nav-menu{display: none;}
 /* --------nav style finish------------- */
 
+/* ---------start banner section-------- */
+
+.banner{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.writing-section{
+    margin-right: 50px;
+}
+.headline1{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.headline2{
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.headline-t1{color: rgb(254, 163, 1);}
+.headline-t2{color: rgb(17, 17, 17) ;}
+.headline-t3{color: rgb(1, 172, 253) ;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
+
+    /* nav section start */
      nav{border-bottom: 0.5px solid orange;}
+    .nav-container{height: 46px;} 
     .nav-school{display: none;}
     .nav-item-name{display: none;}
     .button-a{display: none;}
     .nav-menu{display: block;}
+    .logo{height: 40px; margin-bottom: 3px;}
+    /* nav section finish */
+
+
+    /* banner section start */
+    .banner{flex-direction: column-reverse;  }
+    .image-section{padding-left: 10px; padding-right: 10px;}
+    .headline1,.headline2{ text-align: center;}
+    .button-holder{display: flex; justify-content: center;}
+
+
+
+
+
+
+
+
 }
 
 
