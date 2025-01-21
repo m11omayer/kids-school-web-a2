@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+/* -------shared style---------- */
+.flex{display: flex;}
+.button-primary{
+    padding: 10px;
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+}
+
+
+/* --------nav style------------- */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 102px;
+}
+.nav-item-name{
+    list-style: none;
+}
+.nav-items{
+    align-items: center;
+}
+.logo{
+    height: 62px;
+    width: 62px;
+}
+.nav-school{
+    color: rgb(17, 17, 17);
+    font-size: 32px;
+    font-weight: 700;
+}
+.item-1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgb(254, 163, 1);
+}
+.item{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 32px;
+}
+.item-2{color: rgb(1, 172, 253); }
+.item-3{color: rgb(5, 212, 223);}
+.item-3{color: rgb(93, 88, 239);}
+.button-a{
+    background-color:rgb(254, 163, 1);
+    color: white;
+}
+.nav-menu{display: none;}
+/* --------nav style finish------------- */
+
+
+@media screen and (max-width: 576px) {
+     nav{border-bottom: 0.5px solid orange;}
+    .nav-school{display: none;}
+    .nav-item-name{display: none;}
+    .button-a{display: none;}
+    .nav-menu{display: block;}
+}
+
+
+
+ 
+
