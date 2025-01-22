@@ -401,7 +401,7 @@ footer{
     .box{
         margin: 0 auto;
         position: relative;
-        width: 337.8px;
+        width: 310.8px;
         height: 416.78px;
         box-sizing: border-box;
         border-radius: 18.86px;
@@ -423,13 +423,13 @@ footer{
         gap: 15px;
     }
     .storyimg-2{
-        width: 163px;
+        width: 153px;
         height: 105.39px;
         border-radius: 16px 16px 0px 0px;
         background: url(),rgb(255, 255, 255);
     }
     .storie-box{
-        width: 163px;
+        width: 153px;
         height: 170px;
         border-radius: 16px;
         background: rgb(255, 255, 255);
@@ -501,6 +501,15 @@ footer{
     .abc{
         margin-top: 20px;
     }
+
+    .section-2{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 200;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 300px;
+     }
     
     
       
