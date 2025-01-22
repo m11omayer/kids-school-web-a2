@@ -6,6 +6,18 @@
   font-style: normal;
 }
 /* -------shared style---------- */
+main{
+    background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+
+
+}
+.main-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+
 .flex{display: flex;}
 .button-primary{
     padding: 10px;
@@ -94,13 +106,10 @@
 .headline-t3{color: rgb(1, 172, 253) ;}
 
 /* ---------------curriculam-container-------------------- */
-main{
+.curriculam{
     width: 90%;
     margin: 0 auto;
     margin-top: 60px;
-}
-.curriculam{
-    background-image: url(assets/bg.png);
 }
 .curri-hed{
     font-size: 46px;
@@ -167,6 +176,97 @@ main{
 
 
 
+/* --------our stories section----------- */
+.stories-section{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.curri-hed{
+    margin-top: 100px;
+}
+.story-box-holder{
+    margin-top: 80px;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    justify-content: space-between; 
+
+}
+
+.storie-con-1{
+    position: relative;
+    width: 540.27px;
+    border-radius: 16px;
+    height: 630.52px;
+    background: rgb(255, 255, 255);
+}
+.storyimg-1{
+    width: 540px;
+    height: 337px;
+    border-radius: 16px 16px 0px 0px;
+    background: url(),rgb(217, 217, 217);
+}
+.story-1-textholder{
+    padding: 20px;
+}
+.storyimg-1hed{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+.storyimg-2hed{
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(102, 102, 102);
+}
+
+
+
+.storie-con-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 622px;
+    width: 601px;
+    gap: 15px;
+}
+
+
+.storie-box{
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+
+.storyimg-2{
+    width: 291px;
+    height: 177px;
+    border-radius: 16px 16px 0px 0px;
+    background: url(),rgb(255, 255, 255);
+}
+
+.story-box-title{
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+
+  
 
 
 
