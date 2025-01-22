@@ -256,13 +256,24 @@ main{
 .story-box-title{
     font-size: 15.34px;
     font-weight: 700;
-    line-height: 28.76px;
+    line-height: 15px;
     letter-spacing: 0%;
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
     align-items: center;
     color: rgb(0, 0, 0);
+}
+.hide-box{
+    display: none;
+}
+.btn-margin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
 }
 
 
@@ -313,12 +324,64 @@ main{
 
     /* curriculam section start */
     .box-container{flex-direction: column;}
-    .box{height: 400px ; }
     .image-con{margin-top: 20px; }
-
     .arrow-con{display: none;}
+    .box{
+        margin: 0 auto;
+        position: relative;
+        width: 337.8px;
+        height: 416.78px;
+        box-sizing: border-box;
+        border-radius: 18.86px;
+    }
 
 
+
+
+    /* stories section */
+    .story-box-holder{margin-top: 20px;}
+    .storie-con-1{display: none;}
+    .hide-box{display: block;}
+
+    .storie-con-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 300px;
+        width: 300px;
+        gap: 15px;
+    }
+    .storyimg-2{
+        width: 163px;
+        height: 105.39px;
+        border-radius: 16px 16px 0px 0px;
+        background: url(),rgb(255, 255, 255);
+    }
+    .storie-box{
+        width: 163px;
+        height: 170px;
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+    }
+    .story-box-title{
+        font-size: 9.13px;
+    }
+    .curri-hed{
+        margin-top: 40px;
+    }
+    .stories-section{height: 768.89px;}
+
+    .btn-margin{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 290px;
+        margin-bottom: 40px;
+    
+    }
+
+
+ 
 
 
 
