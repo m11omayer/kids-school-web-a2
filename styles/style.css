@@ -14,11 +14,11 @@ main{
 .main-container{
     width: 90%;
     margin: 0 auto;
-    margin-top: 60px;
 }
 
 
 .flex{display: flex;}
+
 .button-primary{
     padding: 10px;
     width: 197px;
@@ -27,6 +27,8 @@ main{
     border-radius: 12px;
     background-color: rgb(17, 17, 17);
     color: white;
+    margin-top: 0px;
+
 }
 
 
@@ -85,8 +87,13 @@ main{
     justify-content: space-between;
     align-items: center;
 }
+.button-holder{
+    display: contents;
+}
+
 .writing-section{
     margin-right: 50px;
+
 }
 .headline1{
     font-size: 56px;
@@ -381,7 +388,7 @@ footer{
 
     /* banner section start */
     .banner{flex-direction: column-reverse;  }
-    /* .image-section{border: 20px;} */
+    .hero-image{width:330px ; height:400px ;}
     .writing-section{margin-right: 0px;}
     .headline1,.headline2{ text-align: center;}
     .button-holder{display: flex; justify-content: center;}
