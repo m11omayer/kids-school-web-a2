@@ -415,6 +415,20 @@ footer{
     .storie-con-1{display: none;}
     .hide-box{display: block;}
 
+    .curriculam{
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+    .box-container{
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
     .storie-con-2{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -423,14 +437,14 @@ footer{
         gap: 15px;
     }
     .storyimg-2{
-        width: 153px;
+        width: 150px;
         height: 105.39px;
         border-radius: 16px 16px 0px 0px;
         background: url(),rgb(255, 255, 255);
     }
     .storie-box{
-        width: 153px;
-        height: 170px;
+        width: 150px;
+        height: 180px;
         border-radius: 16px;
         background: rgb(255, 255, 255);
     }
@@ -511,20 +525,6 @@ footer{
         width: 300px;
      }
     
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
